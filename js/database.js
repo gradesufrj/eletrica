@@ -1,5 +1,5 @@
 /* Number of total semesters: */
-window.semesters = 10;
+window.semesters = 8;
 
 /* List of available colors to toggle a course as completed */
 /* The first color is default for selecting options as well, so make sure to choose that one wisely */
@@ -265,5 +265,49 @@ window.courses = [
       //
       {"name": "Trabalho de Conclus\u00e3o de Curso", "credits": 2, "code": "IGLK01", "semester": 10, "workload": 90, "requirements": []},
       {"name": "Atividades Acad. Livre Escolha", "credits": 2, "semester": 10, "category": 1, "workload": 30},
+    ],
+    [// Física
+      {"name": "T\u00f3picos de F\u00edsica Geral I", "credits": 4, "code": "FIW491", "semester": 1, "workload": 60, "requirements": []},
+      {"name": "C\u00e1lculo Difer e Integral I", "credits": 6, "code": "MAC118", "semester": 1, "workload": 90, "requirements": []},
+      {"name": "F\u00edsica Experimental I", "credits": 1, "code": "FIS111", "semester": 1, "workload": 30, "requirements": []},
+      {"name": "F\u00edsica I - A", "credits": 4, "code": "FIT112", "semester": 1, "workload": 60, "requirements": []},
+      {"name": "Ativ Curricular Extens\u00e3o", "credits": 250, "code": "FIWZ51", "semester": 1,"category":5,"step":15, "workload": 250},
+      //
+      {"name": "\u00c1lgebra Linear II", "credits": 4, "code": "MAE125", "semester": 2, "workload": 60, "requirements": []},
+      {"name": "C\u00e1lculo Diferen e Integral II", "credits": 4, "code": "MAC128", "semester": 2, "workload": 60, "requirements": ["MCG115", "MAW121", "MAC118", "MAE111", "MAC114", "MAW111", "MAW126"]},
+      {"name": "F\u00edsica II - A", "credits": 4, "code": "FIT122", "semester": 2, "workload": 60, "requirements": ["MAC106", "FIT111", "FIT113", "MAC118", "MAC113", "EEW110", "MAE111", "MAC114", "FIS112", "FIT112"]},
+      {"name": "F\u00edsica Experimental II", "credits": 1, "code": "FIS121", "semester": 2, "workload": 30, "requirements": ["FIS111", "FIT111", "FIT113", "FIW121", "EEW111", "EEW110", "FIS112", "FIT112"]},
+      {"name": "Ativ Acad. Cient\u00edfico-culturais", "credits": 2, "code": "FIWX03", "semester": 2, "workload": 70, "requirements": []},
+      //
+      {"name": "M\u00e9todos Comp em F\u00edsica I", "credits": 4, "code": "FIW234", "semester": 3, "workload": 60, "requirements": []},
+      {"name": "C\u00e1lculo Diferen e Integral III", "credits": 4, "code": "MAC238", "semester": 3, "workload": 60, "requirements": ["MCG234", "MAC128", "MAC123", "MAW116", "MAW231", "MAC124", "MAE121", "MAE992"]},
+      {"name": "Fisica III - A", "credits": 4, "code": "FIM230", "semester": 3, "workload": 60, "requirements": ["MAC128", "FIT111", "FIT113", "FIW121", "MAC123", "MAW116", "MAW231", "EEW110", "MAE992", "MAC124", "FIS112", "MAE121", "FIT112"]},
+      {"name": "F\u00edsica Experimental III", "credits": 1, "code": "FIN231", "semester": 3, "workload": 30, "requirements": ["FIS121", "EQW111", "EEW121", "EQE112"]},
+      {"name": "Atividades Acad. Livre Escolha", "credits": 3, "semester": 3, "step": 1, "category": 3, "workload": 45},
+      //
+      {"name": "Mec\u00e2nica Cl\u00e1ssica I", "credits": 4, "code": "FIW243", "semester": 4, "workload": 60, "requirements": ["FIT121", "MAC238", "FIT122"]},
+      {"name": "M\u00e9todos da F\u00edsica Te\u00f3rica I", "credits": 4, "code": "FIW245", "semester": 4, "workload": 60, "requirements": ["MAC238"]},
+      {"name": "F\u00edsica IV - a", "credits": 4, "code": "FIM240", "semester": 4, "workload": 60, "requirements": ["FIM231", "FIW241", "FIN231", "FIM230"]},
+      {"name": "F\u00edsica Experimental IV", "credits": 1, "code": "FIN241", "semester": 4, "workload": 30, "requirements": ["FIN231"]},
+      {"name": "Atividades Acad. Livre Escolha", "credits": 4, "semester": 4, "step": 1, "category": 3, "workload": 60},
+      //
+      {"name": "Mec\u00e2nica Cl\u00e1ssica II", "credits": 4, "code": "FIW354", "semester": 5, "workload": 60, "requirements": ["FIW243"]},
+      {"name": "M\u00e9todos da F\u00edsica Te\u00f3rica II", "credits": 4, "code": "FIW364", "semester": 5, "workload": 60, "requirements": ["FIW245"]},
+      {"name": "Eletromagnetismo I", "credits": 4, "code": "FIW244", "semester": 5, "workload": 60, "requirements": ["FIW245", "MAC248", "FIM240", "FIM241"]},
+      {"name": "Experimentos de F\u00eds Qu\u00e2ntica", "credits": 4, "code": "FIW246", "semester": 5, "workload": 90, "requirements": ["FIM241", "FIM240", "FIN241"]},
+      //
+      {"name": "Mec\u00e2nica Qu\u00e2ntica I", "credits": 4, "code": "FIW356", "semester": 6, "workload": 60, "requirements": ["FIM241", "MAC248", "FIM240", "FIW246", "MAE231", "FIW245"]},
+      {"name": "Termodin\u00e2mica F\u00eds Estat\u00edstica", "credits": 6, "code": "FIW363", "semester": 6, "workload": 90, "requirements": ["FIM241", "MAC238", "FIM240"]},
+      {"name": "Eletromagnetismo II", "credits": 4, "code": "FIW355", "semester": 6, "workload": 60, "requirements": ["FIW244", "FIM356"]},
+      {"name": "Instrumenta\u00e7\u00e3o em F\u00eds Contemp", "credits": 4, "code": "FIW357", "semester": 6, "workload": 90, "requirements": ["FIW246", "FIN242"]},
+      //
+      {"name": "Mec\u00e2nica Qu\u00e2ntica II", "credits": 4, "code": "FIW365", "semester": 7, "workload": 60, "requirements": ["FIW356", "FIW367"]},
+      {"name": "F\u00eds Nuclear e de Part\u00edc. Elemem.", "credits": 4, "code": "FIW477", "semester": 7, "workload": 60, "requirements": ["FIW356", "FIW367"]},
+      {"name": "F\u00eds At\u00f4mica Molecular e \u00d3tica", "credits": 4, "code": "FIW476", "semester": 7, "workload": 60, "requirements": ["FIW356", "FIW367"]},
+      {"name": "Lab de Mat\u00e9ria Condensada", "credits": 4, "code": "FIW366", "semester": 7, "workload": 90, "requirements": ["FIW356", "FIW367"]},
+      //
+      {"name": "F\u00edsica da Mat\u00e9ria Condensada", "credits": 4, "code": "FIW475", "semester": 8, "workload": 60, "requirements": ["FIW363", "FIW356", "FIW367"]},
+      {"name": "Lab de F\u00edsica Corpuscular", "credits": 4, "code": "FIW474", "semester": 8, "workload": 90, "requirements": []},
+      {"name": "Atividades Acad. Optativas", "credits": 12, "semester": 8, "step": 1, "category": 2, "workload": 180},
     ]
 ]

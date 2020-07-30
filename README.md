@@ -1,6 +1,6 @@
 # Courses Flowchart
 
-Use it live at: https://vnakayama.github.io/grade_geologia/
+Use it live at: https://vnakayama.github.io/grade_fisica/
 
 *Based on the Computer Engineering undergrad original flowchart: https://gremio-eci.github.io/grade/*
 
