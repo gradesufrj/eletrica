@@ -219,14 +219,14 @@ window.courses = [
       {"name": "Ativ Complementares - Geologia", "credits": 0, "code": "IGLX05", "semester": 2, "workload": 60, "requirements": []},
       {"name": "Atividades Acad. Optativas (CIDADANIA)", "credits": 4, "semester": 2, "category": 1, "workload": 60},
       //
-      {"name": "Sedimentologia", "credits": 3, "code": "IGL479", "semester": 3, "workload": 69, "requirements": ["IGL116", "IGL115", "IGL103", "IGL104"]},
+      {"name": "Fund F\u00edsic para Geoci\u00eancias II", "credits": 4, "code": "IGL233", "semester": 3, "workload": 75, "requirements": []},
       {"name": "Geologia de Campo II", "credits": 4, "code": "IGLU17", "semester": 3, "workload": 166, "requirements": ["IGLU09"]},
       {"name": "C\u00e1lculo Diferen e Integral III", "credits": 4, "code": "MAC238", "semester": 3, "workload": 60, "requirements": ["MCG234", "MAC128", "MAW116", "MAC123", "MAE992", "MAC124", "MAW231", "MAE121"]},
-      {"name": "Fund F\u00edsic para Geoci\u00eancias II", "credits": 4, "code": "IGL233", "semester": 3, "workload": 75, "requirements": []},
+      {"name": "Sedimentologia", "credits": 3, "code": "IGL479", "semester": 3, "workload": 69, "requirements": ["IGL116", "IGL115", "IGL103", "IGL104"]},
       {"name": "Pedologia Aplic a Geologia", "credits": 3, "code": "IGL595", "semester": 3, "workload": 69, "requirements": ["IGL116", "IGL115", "IGL103", "IGL104"]},
       {"name": "Fisico-quimica Ig", "credits": 3, "code": "IQF234", "semester": 3, "workload": 45, "requirements": ["MAC128"]},
-      {"name": "Introdu\u00e7\u00e3o \u00e0 Geoestat\u00edstica", "credits": 3, "code": "IGL248", "semester": 4, "workload": 60, "requirements": []},
       //
+      {"name": "Introdu\u00e7\u00e3o \u00e0 Geoestat\u00edstica", "credits": 3, "code": "IGL248", "semester": 4, "workload": 60, "requirements": []},
       {"name": "Geof\u00edsica", "credits": 4, "code": "IGL309", "semester": 4, "workload": 76, "requirements": ["IGL125"]},
       {"name": "Paleontologia", "credits": 4, "code": "IGL236", "semester": 4, "workload": 108, "requirements": []},
       {"name": "Geologia Estrutural I", "credits": 4, "code": "IGL249", "semester": 4, "workload": 100, "requirements": ["IGL116", "IGL115", "IGL103", "IGL104"]},
