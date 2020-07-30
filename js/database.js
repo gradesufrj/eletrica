@@ -287,7 +287,7 @@ window.courses = [
       //
       {"name": "Mec\u00e2nica Cl\u00e1ssica I", "credits": 4, "code": "FIW243", "semester": 4, "workload": 60, "requirements": ["FIT121", "MAC238", "FIT122"]},
       {"name": "M\u00e9todos da F\u00edsica Te\u00f3rica I", "credits": 4, "code": "FIW245", "semester": 4, "workload": 60, "requirements": ["MAC238"]},
-      {"name": "F\u00edsica IV - a", "credits": 4, "code": "FIM240", "semester": 4, "workload": 60, "requirements": ["FIM231", "FIW241", "FIN231", "FIM230"]},
+      {"name": "F\u00edsica IV - A", "credits": 4, "code": "FIM240", "semester": 4, "workload": 60, "requirements": ["FIM231", "FIW241", "FIN231", "FIM230"]},
       {"name": "F\u00edsica Experimental IV", "credits": 1, "code": "FIN241", "semester": 4, "workload": 30, "requirements": ["FIN231"]},
       {"name": "Atividades Acad. Livre Escolha", "credits": 4, "semester": 4, "step": 1, "category": 3, "workload": 60},
       //
