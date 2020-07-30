@@ -269,8 +269,8 @@ window.courses = [
     [// Física
       {"name": "T\u00f3picos de F\u00edsica Geral I", "credits": 4, "code": "FIW491", "semester": 1, "workload": 60, "requirements": []},
       {"name": "C\u00e1lculo Difer e Integral I", "credits": 6, "code": "MAC118", "semester": 1, "workload": 90, "requirements": []},
-      {"name": "F\u00edsica Experimental I", "credits": 1, "code": "FIS111", "semester": 1, "workload": 30, "requirements": []},
       {"name": "F\u00edsica I - A", "credits": 4, "code": "FIT112", "semester": 1, "workload": 60, "requirements": []},
+      {"name": "F\u00edsica Experimental I", "credits": 1, "code": "FIS111", "semester": 1, "workload": 30, "requirements": []},
       {"name": "Ativ Curricular Extens\u00e3o", "credits": 250, "code": "FIWZ51", "semester": 1,"category":5,"step":15, "workload": 250},
       //
       {"name": "\u00c1lgebra Linear II", "credits": 4, "code": "MAE125", "semester": 2, "workload": 60, "requirements": []},
