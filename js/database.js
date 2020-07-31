@@ -1,5 +1,5 @@
 /* Number of total semesters: */
-window.semesters = 8;
+window.semesters = 10;
 
 /* List of available colors to toggle a course as completed */
 /* The first color is default for selecting options as well, so make sure to choose that one wisely */
@@ -309,5 +309,80 @@ window.courses = [
       {"name": "F\u00edsica da Mat\u00e9ria Condensada", "credits": 4, "code": "FIW475", "semester": 8, "workload": 60, "requirements": ["FIW363", "FIW356", "FIW367"]},
       {"name": "Lab de F\u00edsica Corpuscular", "credits": 4, "code": "FIW474", "semester": 8, "workload": 90, "requirements": []},
       {"name": "Atividades Acad. Optativas", "credits": 12, "semester": 8, "step": 1, "category": 2, "workload": 180},
+    ],
+    [// Engenharia Elétrica
+      {"name": "Introducao a Eng Eletrica", "credits": 2, "code": "EEE200", "semester": 1, "workload": 30, "requirements": []},
+      {"name": "Computa\u00e7\u00e3o I Ep", "credits": 4, "code": "MAB114", "semester": 1, "workload": 60, "requirements": []},
+      {"name": "C\u00e1lculo Difer e Integral I", "credits": 6, "code": "MAC118", "semester": 1, "workload": 90, "requirements": []},
+      {"name": "F\u00edsica I - a", "credits": 4, "code": "FIT112", "semester": 1, "workload": 60, "requirements": []},
+      {"name": "F\u00edsica Experimental I", "credits": 1, "code": "FIS111", "semester": 1, "workload": 30, "requirements": []},
+      {"name": "Quimica EE", "credits": 4, "code": "IQG111", "semester": 1, "workload": 60, "requirements": []},
+      {"name": "Engenharia e Meio Ambiente", "credits": 2, "code": "EEH210", "semester": 1, "workload": 30, "requirements": []},
+      //
+      {"name": "\u00c1lgebra Linear II", "credits": 4, "code": "MAE125", "semester": 2, "workload": 60, "requirements": []},
+      {"name": "Computa\u00e7\u00e3o II Ep", "credits": 4, "code": "MAB225", "semester": 2, "workload": 60, "requirements": ["MAB121", "MAB114", "MAB124"]},
+      {"name": "C\u00e1lculo Diferen e Integral II", "credits": 4, "code": "MAC128", "semester": 2, "workload": 60, "requirements": ["MCG115", "MAW126", "MAW121", "MAE111", "MAC118", "MAW111", "MAC114"]},
+      {"name": "F\u00edsica II - a", "credits": 4, "code": "FIT122", "semester": 2, "workload": 60, "requirements": ["FIT112", "MAE111", "FIS112", "FIT111", "MAC113", "MAC106", "FIT113", "MAC118", "EEW110", "MAC114"]},
+      {"name": "F\u00edsica Experimental II", "credits": 1, "code": "FIS121", "semester": 2, "workload": 30, "requirements": ["FIS111", "FIT111"]},
+      {"name": "Quimica Experimental EE", "credits": 2, "code": "IQG112", "semester": 2, "workload": 60, "requirements": []},
+      {"name": "Sistemas Projetivos", "credits": 4, "code": "EEG105", "semester": 2, "workload": 60, "requirements": []},
+      //
+      {"name": "Circuitos Logicos", "credits": 4, "code": "EEE466", "semester": 3, "workload": 60, "requirements": []},
+      {"name": "Mecanica I", "credits": 4, "code": "EEA212", "semester": 3, "workload": 60, "requirements": ["MAC128", "MAE121", "MAC123", "MAC124"]},
+      {"name": "C\u00e1lculo Diferen e Integral III", "credits": 4, "code": "MAC238", "semester": 3, "workload": 60, "requirements": ["MCG234", "MAE992", "MAW231", "MAC123", "MAC128", "MAE121", "MAW116", "MAC124"]},
+      {"name": "Fisica III - A", "credits": 4, "code": "FIM230", "semester": 3, "workload": 60, "requirements": ["MAE992", "MAW231", "MAC123", "FIW121", "FIT112", "MAC128", "MAE121", "MAW116", "FIS112", "FIT111", "FIT113", "EEW110", "MAC124"]},
+      {"name": "F\u00edsica Experimental III", "credits": 1, "code": "FIN231", "semester": 3, "workload": 30, "requirements": ["EEW121", "EQE112", "EQW111", "FIS121"]},
+      {"name": "C\u00e1lculo Num\u00e9rico", "credits": 4, "code": "MAB231", "semester": 3, "workload": 60, "requirements": ["MAE992", "MAW231", "MAC123", "MAC128", "MAE121", "MAW116", "EEL170", "MAB114", "COC471", "MAB124", "MAB121", "MAB120", "MAW112", "MAC124"]},
+      {"name": "Atividades Acad. Opt. Humanas", "credits": 4, "semester": 3, "category": 4, "workload": 60},
+      //
+      {"name": "Lab Circuitos L\u00f3gicos", "credits": 1, "code": "EEE467", "semester": 4, "workload": 30, "requirements": ["EEE466"]},
+      {"name": "Circuitos Eletricos em CC", "credits": 4, "code": "EEE321", "semester": 4, "workload": 60, "requirements": ["MAW231", "MAC123", "MAC128", "MAE121", "MAW116", "FIM230", "MAW112", "MAC124"]},
+      {"name": "Calculo Diferen e Integral IV", "credits": 4, "code": "MAC248", "semester": 4, "workload": 60, "requirements": ["MAE992", "MAW231", "MAC123", "MAC128", "MAE121", "MAW116", "MAC124"]},
+      {"name": "F\u00edsica IV - a", "credits": 4, "code": "FIM240", "semester": 4, "workload": 60, "requirements": ["FIN231", "FIM231", "FIM230", "FIW241"]},
+      {"name": "F\u00edsica Experimental IV", "credits": 1, "code": "FIN241", "semester": 4, "workload": 30, "requirements": ["FIN231"]},
+      {"name": "Fen\u00f4menos de Transfer\u00eancia", "credits": 4, "code": "EEH214", "semester": 4, "workload": 60, "requirements": ["MAC238", "MAC233", "MAE231"]},
+      {"name": "Probabilidade e Estatistica", "credits": 4, "code": "MAD201", "semester": 4, "workload": 60, "requirements": ["MAE111", "MAC113", "MAC118"]},
+      //
+      {"name": "Lab Circuitos El\u00e9tricos I", "credits": 1, "code": "EEE322", "semester": 5, "workload": 30, "requirements": ["EEE321"]},
+      {"name": "Sistemas de Controle I", "credits": 4, "code": "EEE339", "semester": 5, "workload": 60, "requirements": ["EEE321"]},
+      {"name": "Ciencia dos Mat Eletricos", "credits": 4, "code": "EET308", "semester": 5, "workload": 75, "requirements": ["FIM231", "FIM230", "IQG111"]},
+      {"name": "Resistencia dos Materiais", "credits": 4, "code": "EEA338", "semester": 5, "workload": 60, "requirements": ["EEA212"]},
+      {"name": "Eletromagnetismo I", "credits": 4, "code": "EEE327", "semester": 5, "workload": 60, "requirements": ["MAE231", "MAC243", "EEW230", "MAC248", "MAC234", "FIM231", "MAC238", "FIM230", "MAE241", "MAC233"]},
+      {"name": "Economia A", "credits": 4, "code": "EEI312", "semester": 5, "workload": 60, "requirements": []},
+      {"name": "Atividades Acad. Livre Escolha", "credits": 4, "semester": 5, "step": 1, "category": 2, "workload": 60},
+      //
+      {"name": "Eletr\u00f4nica I", "credits": 4, "code": "EEE333", "semester": 6, "workload": 60, "requirements": ["EEE321"]},
+      {"name": "Conversao Eletromec de Energia", "credits": 4, "code": "EEE340", "semester": 6, "workload": 60, "requirements": ["EEE327", "EEE321", "EEL326"]},
+      {"name": "Organizacao das Industrias", "credits": 4, "code": "EEI321", "semester": 6, "workload": 60, "requirements": []},
+      {"name": "Lab Sistemas de Controle I", "credits": 1, "code": "EEE332", "semester": 6, "workload": 30, "requirements": ["EEE339"]},
+      {"name": "Eletromagnetismo II", "credits": 4, "code": "EEE335", "semester": 6, "workload": 75, "requirements": ["EEE327", "EEL326"]},
+      {"name": "Circuitos Eletricos em CA", "credits": 4, "code": "EEE360", "semester": 6, "workload": 60, "requirements": ["EEE321"]},
+      //
+      {"name": "Eletr\u00f4nica II", "credits": 4, "code": "EEE438", "semester": 7, "workload": 60, "requirements": ["EEL338", "EEE333"]},
+      {"name": "Sistemas de Controle II", "credits": 4, "code": "EEE451", "semester": 7, "workload": 60, "requirements": ["EEE339", "MAE125"]},
+      {"name": "M\u00e1quinas El\u00e9tricas I", "credits": 4, "code": "EEE455", "semester": 7, "workload": 60, "requirements": ["EEE337", "EEE340", "EEE360"]},
+      {"name": "Transmissao Energia Eletrica", "credits": 4, "code": "EEE457", "semester": 7, "workload": 60, "requirements": ["EEL335", "EEE337", "EEE335", "EEE360"]},
+      {"name": "Lab Eletr\u00f4nica I", "credits": 1, "code": "EEE334", "semester": 7, "workload": 30, "requirements": ["EEL338", "EEE322", "EEE333"]},
+      {"name": "Lab Conv Eletromec de Energia", "credits": 1, "code": "EEE456", "semester": 7, "workload": 30, "requirements": ["EEE340"]},
+      {"name": "Lab Circuitos El\u00e9tricos II", "credits": 1, "code": "EEE474", "semester": 7, "workload": 30, "requirements": ["EEE337", "EEE322", "EEE360"]},
+      //
+      {"name": "Lab Eletr\u00f4nica II", "credits": 1, "code": "EEE439", "semester": 8, "workload": 30, "requirements": ["EEE438", "EEL438", "EEE334", "EEL339"]},
+      {"name": "Lab Sistemas de Controle II", "credits": 1, "code": "EEE452", "semester": 8, "workload": 30, "requirements": ["EEE451", "EEE332"]},
+      {"name": "Lab M\u00e1quinas El\u00e9tricas", "credits": 1, "code": "EEE462", "semester": 8, "workload": 30, "requirements": ["EEE456", "EEE455"]},
+      {"name": "An\u00e1lise Defeitos Sistemas Pot", "credits": 4, "code": "EEE463", "semester": 8, "workload": 60, "requirements": ["EEE457", "EEE455"]},
+      {"name": "Eletr\u00f4nica de Pot\u00eancia I", "credits": 4, "code": "EEE481", "semester": 8, "workload": 60, "requirements": ["EEE337", "EEL338", "EEE333", "EEE360"]},
+      {"name": "Projeto de Gradua\u00e7\u00e3o", "credits": 4, "code": "EEWX00", "semester": 8, "workload": 180, "requirements": []},
+
+
+      {"name": "Instalacoes Eletricas", "credits": 4, "code": "EEE472", "semester": 8, "workload": 60, "requirements": ["EEE337", "EEE360"]},
+      {"name": "Analise de Sist de Potencia", "credits": 4, "code": "EEE581", "semester": 8, "workload": 60, "requirements": ["EEE457", "EEE455"]},
+      //
+      {"name": "Lab Eletr\u00f4nica de Pot\u00eancia", "credits": 1, "code": "EEE595", "semester": 9, "workload": 30, "requirements": ["EEL539", "EEE481"]},
+      {"name": "Maquinas Eletricas II", "credits": 4, "code": "EEE461", "semester": 9, "workload": 60, "requirements": ["EEE455"]},
+      {"name": "Est\u00e1gio Obrigat\u00f3rio", "credits": 2, "code": "EEWU00", "semester": 9, "workload": 160, "requirements": []},
+      {"name": "Atividades Acad. Optativas", "credits": 12, "semester": 9, "step": 1, "category": 2, "workload": 180},
+      //
+      {"name": "Atividades Acad. Optativas", "credits": 20, "semester": 10, "step": 1, "category": 2, "workload": 300},
+      {"name": "Ativ. Compl. Especiais", "credits": 405, "semester": 10, "step": 15, "category": 5, "workload": 405}
     ]
 ]

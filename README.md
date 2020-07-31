@@ -1,6 +1,7 @@
 # Courses Flowchart
 
-Use it live at: https://vnakayama.github.io/grade_fisica/
+Use it live at: https://gradesufrj.github.io/eletrica/
+Other flowcharts available here: https://gradesufrj.github.io/
 
 *Based on the Computer Engineering undergrad original flowchart: https://gremio-eci.github.io/grade/*
 
